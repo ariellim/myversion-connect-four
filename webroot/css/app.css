@@ -1,0 +1,104 @@
+.bluebg {
+	color: #f00;
+}
+
+.redbg {
+	color: #00f;
+}
+
+.offline {
+	color: #666;
+	font-size: 24pt;
+}
+
+.online {
+	color: #56A00E;
+	font-size: 24pt;
+}
+
+#board {
+	background-color: #157539;
+	min-height: 200px;
+}
+
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+table {
+	display: inline-block;
+	border-collapse: collapse;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 13%;
+}
+
+.free {
+	margin:0;
+	padding:0;
+	background: url("../img/white.png") no-repeat;
+	background-size: 70px 70px;
+	height:70px;
+	width:70px;
+	border: none;
+}
+.red {
+	margin:0;
+	padding:0;
+	background: url("../img/red.png") no-repeat;
+	background-size: 70px 70px;
+	height:70px;
+	width:70px;
+	border: none;
+}
+.blue {
+	margin:0;
+	padding:0;
+	background: url("../img/blue.png") no-repeat;
+	background-size: 70px 70px;
+	height:70px;
+	width:70px;
+	border: none;
+}
+
+button {
+	height: 68px;
+	width: 58px;
+	padding:0;
+	margin:0;
+	outline: none;
+	cursor: pointer;
+}
+
+img {
+	height: 68px;
+	width: 50px;
+}
+#player1, #player2 {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#redPlayer, #bluePlayer {
+	height: 100px;
+	width:100px;
+
+}
+
+.playerTurn {
+	background: yellow;
+}
+
+#newGame {
+	margin:0px;
+	margin-top: 10px;
+	text-align: center;
+	padding: 2px;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	background: #02808C;
+	color: white;
+	margin-bottom: 50px;
+}
